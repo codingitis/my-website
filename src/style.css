@@ -1,0 +1,140 @@
+:root {
+    --links: text-decoration none;
+    --primary-colors:#e8aee0 ;
+    --secondary-colors: #0311780f;
+    --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+    
+  }
+  
+  h1 {
+    font-size: 65px;
+  color: #000000;
+  
+  }
+  
+  h2 {
+    font-size: 40px;
+    color: #303030;
+  }
+  h3 {
+    font-size: 48px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    
+  }
+  
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+    background-color:  rgb(58, 54, 54);
+    padding: 20px;
+    background-color: #ffe2e871;
+    display: flex;
+    justify-content: center;
+  }
+  #email:hover{ color: #ebb6e7;}
+  
+  .hero {
+    padding: 70px 20px;
+  text-align: center;
+  
+  background-color:#0311780f; 
+  
+  }
+  #sara{border-radius: 1000px;}
+  
+  .btn-branding {
+    background: #e8aee0;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  margin: 20px;
+  box-shadow: 3px 8px 21px rgba(74, 74, 74, 0.2);;
+  transition: box-shadow 0.15s ease-in-out;}
+    
+   
+  
+  .primary-link:hover {
+    color: #b9425e;
+  }
+  .navbar-brand {
+    margin: 0px 16px;
+  }
+  .nav-link {
+    padding: 8px;
+  }
+  
+  
+  a,
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: var(--links);
+    text-transform: capitalize;
+  }
+  
+  .email-link {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+    color:purple}
+  
+    .container, .container-md, .container-sm {
+      max-width: 960px;
+  }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-.5 * var(--bs-gutter-x));
+      margin-left: calc(-.5 * var(--bs-gutter-x));}
+      .content {
+        padding: 50px 20px;
+    }
+   
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .contact-box {
+    background:#F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+  margin-top: 20px;}
+   .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;}
+  p{
+    margin-bottom: 3rem!important;
+    font-size: 20px;
+  font-weight: 400;
+  }
+  
+  
+  #contact{
+    margin: 30px;
+  max-width: 720px;
+  
+    padding: 60px 20px;
+  }
+  #rowwork{margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px 20px;
+  }
