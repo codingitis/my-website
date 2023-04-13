@@ -58,6 +58,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 1000px;
+    width: 350px;
     }
   #sara{border-radius: 1000px;
   }
