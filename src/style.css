@@ -1,7 +1,7 @@
 :root {
     --links: text-decoration none;
-    --primary-colors:#e8aee0 ;
-    --secondary-colors: #0311780f;
+    --primary-colors:#7f9cfd ;
+    --secondary-colors: #3d13902e;
     --bs-gutter-x: 1.5rem;
       --bs-gutter-y: 0;
     
@@ -9,13 +9,13 @@
   
   h1 {
     font-size: 65px;
-  color: #000000;
-  
+  color: #984c93;
   }
   
   h2 {
     font-size: 40px;
-    color: #303030;
+    color: #775b9c;
+    text-align: center;
   }
   h3 {
     font-size: 48px;
@@ -25,33 +25,45 @@
     font-size: 24px;
     
   }
-  
-  
+   body{ font-family: 'Amatic SC', cursive;
+  background-image:url(/images/istockphoto-836276224-1024x1024.jpg)}
+  .skills-container {
+    max-width: 500px;
+   
+}
+
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    color:#fff;
-    background-color:  rgb(58, 54, 54);
+    color:#fbfbfb;
+    
     padding: 20px;
-    background-color: #ffe2e871;
+    background-color: #ba5a6d71;
     display: flex;
     justify-content: center;
   }
   #email:hover{ color: #ebb6e7;}
   
   .hero {
-    padding: 70px 20px;
+    padding: 50px 20px;
   text-align: center;
   
   background-color:#0311780f; 
   
   }
-  #sara{border-radius: 1000px;}
   
+  .woman-coding-image, .memoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  #sara{border-radius: 1000px;
+  }
+  .navigation-links{margin-top: 50px;}
   .btn-branding {
-    background: #e8aee0;
+    background: var(--primary-colors);
     border-radius: 4px;
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -68,12 +80,17 @@
   }
   .navbar-brand {
     margin: 0px 16px;
+   color: #F9F7FE;
+
   }
   .nav-link {
     padding: 8px;
+    
+   font-size: 20px;
+   color: #faf7f7;
   }
   
-  
+
   a,
   a:hover,
   a:active,
@@ -81,12 +98,12 @@
     text-decoration: var(--links);
     text-transform: capitalize;
   }
-  
+
   .email-link {
     font-size: 20px;
     text-decoration: none;
     text-transform: none;
-    color:purple}
+    color:rgb(20, 20, 20)}
   
     .container, .container-md, .container-sm {
       max-width: 960px;
@@ -101,7 +118,8 @@
         padding: 50px 20px;
     }
    
-  
+  #navcolor{background-color: var(--primary-colors);
+  }
   .img-fluid {
     max-width: 100%;
     height: auto;
@@ -138,3 +156,8 @@
   margin-right: 50px;
   padding: 50px 20px;
   }
+ 
+ .skills-container{max-width: 500px;}
+
+
+
